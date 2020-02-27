@@ -1,0 +1,22 @@
+// To update pip
+python -m pip install --force-reinstall pip (this is done inside pycharm multiple times)
+{OR}
+python -m pip install --upgrade (this can be done using cmd)
+
+// To update setuptools
+pip install setuptools --force-reinstall (inside pycharm)
+{OR}
+pip install setuptools --upgrade (inside cmd)
+
+// To see what are installed in site packages
+pip list
+
+// To see the extra libraries we have installed appart from the built in ones
+pip freeze
+
+//this is used to save different modules with their version name inside a file so that it can be used to install those packages on some other machine (client machine)
+pip freeze > filename.txt
+
+// this command is used to show the details of a module like its path of installation or its dependencies or its version and many other things
+pip show module_name
+
